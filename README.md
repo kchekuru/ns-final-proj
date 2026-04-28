@@ -48,7 +48,3 @@ If you want to cite our paper in your work, please use the following BibTeX entr
 }
 
 ```
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=CactiLab/code-xNIDS&type=Date)](https://star-history.com/#CactiLab/code-xNIDS&Date)
