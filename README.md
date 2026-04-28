@@ -5,7 +5,7 @@
 
 
 
-## xNIDS: Explaining Deep Learning-based Network Intrusion Detection Systems for Active Intrusion Responses
+##Explaining Deep Learning-based Network Intrusion Detection Systems for Active Intrusion Responses
 
 This repo includes the source code for the "Explaining Deep Learning-based Network Intrusion Detection Systems for Active Intrusion Responses" project. The code is hardware-independent and can be optimized for execution on Google Colab.
 
@@ -15,12 +15,7 @@ This repo includes the source code for the "Explaining Deep Learning-based Netwo
 Testing and running the code is straightforward, giving users the flexibility to utilize either Google Colab or a local machine for their testing purposes.
 
 1. **Google Colab**:
-   > git clone https://github.com/CactiLab/code-xNIDS.git
-   - Rename the folder
-   > mv code-xNIDS   xNIDS
-   - Upload the folder to **Colab Notebooks** folder under google drive
-   - Run the Demo **explanation.ipynb** notebook
-   - Although a GPU is not required, it can significantly accelerate the execution
+
      
 2. **Local Machine**:
    
