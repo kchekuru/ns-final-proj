@@ -23,20 +23,21 @@ Testing and running the code is straightforward, giving users the flexibility to
    
    > python explanation.py
    
- 3. **Retrain the DL-NIDS**
+ 3. **Retrain the Deep Learning - Network Intrusion Detection System**
     - Please carefully update the testcases accordingly in the **explantion.py** if the users want to retrain the models. 
     - **kitsune.ipynb** contains the reimplementation of kitnet. Please download the dataset and put them under the **Data** folder.
-    - **kdd.ipynb** includes one *Autoencoder* and one **stateless** *RNN* based DL-NIDS
-    - **kdd_histroy.ipynb** contains one **stateful** LSTM based DL-NIDS.
+    - **kdd.ipynb** includes one *Autoencoder* and one **stateless** *RNN* based Deep Learning - Network Intrusion Detection System
+    - **kdd_histroy.ipynb** contains one **stateful** Long Short Term Memory based Deep Learning - Network Intrusion Detection System.
 
 ## Contribute
 
 Contributions are always welcome! 
 
-## Citation & Paper
+## Original Citation & Paper
 
 
-The results of this project was published in the paper entitled "xNIDS: Explaining Deep Learning-based Network Intrusion Detection Systems for Active Intrusion Responses" in the USENIX Security 2023. If you want to cite our paper in your work, please use the following BibTeX entry.
+The results of this project was published in the paper entitled "xNIDS: Explaining Deep Learning-based Network Intrusion Detection Systems for Active Intrusion Responses" in the USENIX Security 2023. 
+If you want to cite our paper in your work, please use the following BibTeX entry.
 
 ```
 @inproceedings{wei2023xnids,
