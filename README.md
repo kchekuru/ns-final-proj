@@ -5,19 +5,22 @@
 
 
 
-## xNIDS: Explaining Deep Learning-based Network Intrusion Detection Systems for Active Intrusion Responses
+## Network Attack Detection System: Explaining Deep Learning-based Network Attack Detection Systems for Active Intrusion Responses
 
-This repo includes the source code for the "Explaining Deep Learning-based Network Intrusion Detection Systems for Active Intrusion Responses" project. The code is hardware-independent and can be optimized for execution on Google Colab.
+This repo includes the source code for the "Explaining Deep Learning-based Network Attack Detection Systems for Active Attack Responses" project. The code(notebooks,python scripts) is hardware independent and is optimized for execution on Github CodeSpaces.
+
+Model can be embedded into network devices, for network attack detection and esclation to Security Operation Response Center
+
 
  
 ## Implementation Notes
 
-Testing and running the code is straightforward, giving users the flexibility to utilize either Google Colab or a local machine for their testing purposes.
+Testing and running the code is straightforward, giving users the flexibility to utilize either Github Codespaces or a local machine for their testing purposes.
 
 1. **Google Colab**:
-   > git clone https://github.com/CactiLab/code-xNIDS.git
+   > 
    - Rename the folder
-   > mv code-xNIDS   xNIDS
+   > mv code - Network Intrusion Detection System   Network Intrusion Detection System
    - Upload the folder to **Colab Notebooks** folder under google drive
    - Run the Demo **explanation.ipynb** notebook
    - Although a GPU is not required, it can significantly accelerate the execution
@@ -41,7 +44,8 @@ Contributions are always welcome!
 ## Citation & Paper
 
 
-The results of this project was published in the paper entitled "xNIDS: Explaining Deep Learning-based Network Intrusion Detection Systems for Active Intrusion Responses" in the USENIX Security 2023. If you want to cite our paper in your work, please use the following BibTeX entry.
+The results of this project was published in the paper entitled "NIDS: Explaining Deep Learning-based Network Intrusion Detection Systems for Active Intrusion Responses" in the USENIX Security 2023. If you want to cite original paper or any extrapolation/modification to the original work, please use the following BibTeX entry.
+git clone https://github.com/CactiLab/code-xNIDS.git
 
 ```
 @inproceedings{wei2023xnids,
@@ -52,7 +56,3 @@ The results of this project was published in the paper entitled "xNIDS: Explaini
 }
 
 ```
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=CactiLab/code-xNIDS&type=Date)](https://star-history.com/#CactiLab/code-xNIDS&Date)

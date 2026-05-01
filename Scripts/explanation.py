@@ -354,7 +354,7 @@ kitsune_fp_explanation.sparse_group_lasso()
 kitsune_fp_explanation.visualization(kitsune_group_sizes, kitsune_group_names, kitsune_feature_names)
 
 # explain RNN-IDS (stateless)
-# We use the false postives, and false negatives  from RNN-IDS to demostrate the explanation
+# We use the false postives, and false negatives  from Recurrent Neural Network-Itrusion Detection System to demostrate the explanation
 
 # Location of the instances:
 
