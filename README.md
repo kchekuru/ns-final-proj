@@ -10,13 +10,10 @@
 This repo includes the source code for the "Explaining Deep Learning-based Active Network Attack Detection Systems" project. The code(notebooks,python scripts) is hardware independent and is optimized for execution on Github CodeSpaces.
 
 Model can be embedded into network devices, for network attack detection and esclation to Security Operation Response Center
-
-
  
 ## Implementation Notes
 
 Testing and running the code is straightforward, giving developers the flexibility to utilize either Github Codespaces or a local machine for their testing purposes.
-
 
 1. **Github Codespaces**:
    - Run the Demo **explanation.ipynb** notebook
