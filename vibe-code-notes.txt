@@ -1,1 +1,6 @@
+Reading
+https://www.kaggle.com/datasets/ymirsky/network-attack-dataset-kitsune
+https://github.com/ymirsky/Kitsune-py/edit/master/README.md
+https://archive.ics.uci.edu/datasets [ better datasets then rubbish datasets on hugging face ]
+Refactoring
 refactor from google drive to github / huggingface for storage
