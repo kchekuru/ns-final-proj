@@ -19,22 +19,26 @@ Testing and running the code is straightforward, giving developers the flexibili
    - Run the Demo **explanation.ipynb** notebook
    - Although a GPU is not required, it can significantly accelerate the execution
      
-2. **Local Machine**:
+2. **Local Host**:
    
    > pip install -r requirements.txt
+   > 
    > python explanation.py
    
  3. **Retrain the Deep Learning - Active Network Attack Detection System**
-    - Please carefully update the testcases accordingly in the **explantion.py** if the users want to retrain the models. 
+    - Please carefully update the testcases accordingly in the **explantion.py** if the engineer want to retrain the models. 
     - **kitsune.ipynb** contains the reimplementation of kitnet. Please download the dataset and put them under the **Data** folder.
-    - **kdd.ipynb** includes one *Autoencoder* and one **stateless** *RNN* based DL-NADS
-    - **kdd_histroy.ipynb** contains one **stateful** LSTM based DL-NADS.
+    - **kdd.ipynb** includes one *Autoencoder* and one **stateless** *RNN* based Deep Learning - Network Attack Detection System
+    - **kdd_histroy.ipynb** contains one **stateful** Long Short Term Memory based Deep Learning - Network Attack Detction System.
  
 ## Citation & Paper
 
 
-The results of this project was published in the paper entitled "Network Attack Detection System: Explaining Deep Learning-based Network Attack Detection Systems" in the USENIX Security 2023. Please cite original paper for original work and any modification including this to support GitHub Codespaces, refactored to move away from google drive
-git clone https://github.com/CactiLab/code-xNIDS.git
+The results of this project was published in the paper entitled "Network Attack Detection System: Explaining Deep Learning-based Network Intrusion Detection Systems" in the USENIX Security 2023. 
+Please cite original paper for original work from "USENIX Security 2023". Any modification including this work to support GitHub Codespaces, refactored to move away from google colab, google drive
+
+Original USENIX Security 2023 submission is
+https://github.com/CactiLab/code-xNIDS.git
 
 ```
 @inproceedings{wei2023xnids,
