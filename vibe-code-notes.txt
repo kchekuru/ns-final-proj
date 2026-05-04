@@ -1,16 +1,42 @@
+but first
+Original USENIX Security 2023 submission is
+https://github.com/CactiLab/code-xNIDS.git
+
+```
+@inproceedings{wei2023xnids,
+ title = {{xNIDS: Explaining Deep Learning-based Network Intrusion Detection Systems for Active Intrusion Responses}},
+ author = {Wei, Feng and Li, Hongda and Zhao, Ziming and Hu, Hongxin},
+ booktitle = {{USENIX Security}},
+ year = {2023},
+}
+
+```
 Reading
 https://www.kaggle.com/datasets/ymirsky/network-attack-dataset-kitsune
 https://github.com/ymirsky/Kitsune-py/edit/master/README.md
 https://archive.ics.uci.edu/datasets [ better datasets then rubbish datasets on hugging face ]
+https://www.unb.ca/cic/datasets/index.html
 
-Raw Dataset (any way, shape or form) digging
-OS_Scan_dataset.csv
-OS_Scan_labels.csv
-merged_OS_Scan.csv
+Checklist
+- Use Python environment from repo (.venv) and install exact dependencies from requirements.txt
+- Keep models as-is for baseline parity (especially Models/kitsune.h5)
+- Use repository-relative paths only (../Data, ../Models)
+- Generate / verify TP-FN-FP case artifacts before explanation pass
+- Keep script and notebook outputs aligned to avoid drift
+- Capture final table numbers after one clean rerun
 
+Run commands (from repo root)
+1) Install dependencies
+	/workspaces/ns-final-proj/.venv/bin/python -m pip install -r requirements.txt
 
+2) Baseline model/data workflow (can be long)
+	/workspaces/ns-final-proj/.venv/bin/python Scripts/kitsune.py
+	/workspaces/ns-final-proj/.venv/bin/python Scripts/kdd.py
+	/workspaces/ns-final-proj/.venv/bin/python Scripts/kdd_history.py
 
-Training (any type) notes
+3) Explanation workflow
+	/workspaces/ns-final-proj/.venv/bin/python Scripts/explanation.py
 
-Refactoring
-refactor from google drive to github / huggingface for storage
+4) Quick artifact sanity checks
+	ls -lh Data/kitsune_selected_* Data/kdd_selected_* Data/kdd_history_selected_*
+	ls -lh Models/*.h5
